@@ -5,7 +5,7 @@ public class KlassenSchreiben {
 	  Klasse1.init();
 	  Klasse1.ausgabe();
 	  Klasse1.attr1 = 42;
-	  Klasse1 ob1 = new Klasse1(); // Konsruktor ("new") - Erzeugung von ob1
+	  Klasse1 ob1 = new Klasse1(); // Konstruktor ("new") - Erzeugung von ob1
 	  System.out.println(ob1.attr1);
 	  System.out.println(ob1.attr2);
 	  // die folgende Zeile ist unkluge Programmierung: Zugriff auf ein Klassenelement über eine Instanz; attr1 ist als "static" deklariert (=Klassenelement)
